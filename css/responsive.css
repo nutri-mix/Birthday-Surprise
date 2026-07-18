@@ -1,0 +1,240 @@
+/* ===================================
+   TABLET
+=================================== */
+
+@media (max-width:1024px){
+
+    .birthday-title{
+        font-size:48px;
+    }
+
+    .birthday-name{
+        font-size:36px;
+    }
+
+    #slideImage{
+        width:360px;
+    }
+
+    .letter{
+        width:92%;
+        padding:25px;
+    }
+
+    .gift-container h1{
+        font-size:34px;
+    }
+
+    .cake-wrapper{
+        width:320px;
+    }
+
+    #cakeImage{
+        width:100%;
+    }
+
+    #knife{
+        width:140px;
+    }
+
+    .finalMessage{
+        width:90%;
+    }
+
+}
+
+
+/* ===================================
+   MOBILE
+=================================== */
+
+@media (max-width:768px){
+
+    body{
+        overflow-x:hidden;
+    }
+
+    .loader-content h1{
+        font-size:40px;
+    }
+
+    .loader-content h2{
+        font-size:28px;
+    }
+
+    #startBtn{
+        width:85%;
+        max-width:300px;
+        font-size:18px;
+    }
+
+    #intro{
+        padding:25px 15px;
+    }
+
+    .birthday-title{
+        font-size:42px;
+        line-height:1.2;
+    }
+
+    .birthday-name{
+        font-size:30px;
+    }
+
+    .birthday-text{
+        font-size:18px;
+    }
+
+    #slideshow{
+        margin-top:20px;
+    }
+
+    #slideImage{
+        width:90vw;
+        max-width:340px;
+        border-radius:20px;
+    }
+
+    .popup-box{
+        width:92%;
+        padding:25px;
+    }
+
+    .popup-box h2{
+        font-size:26px;
+    }
+
+    .popup-box button{
+        font-size:17px;
+    }
+
+    .letter{
+        width:94%;
+        padding:20px;
+        max-height:80vh;
+        overflow-y:auto;
+    }
+
+    #typingText{
+        font-size:16px;
+        line-height:1.8;
+    }
+
+    .gift-container h1{
+        font-size:28px;
+    }
+
+    .gift-container p{
+        font-size:16px;
+    }
+
+    #giftBox{
+        font-size:100px;
+    }
+
+    #openGift{
+        width:90%;
+        max-width:300px;
+        font-size:18px;
+    }
+
+    .cake-container h1{
+        font-size:30px;
+    }
+
+    #cakeMessage{
+        font-size:16px;
+    }
+
+    .cake-wrapper{
+        width:260px;
+    }
+
+    #knife{
+        width:120px;
+    }
+
+    #blowBtn{
+        width:90%;
+        max-width:300px;
+        font-size:18px;
+    }
+
+    .finalMessage{
+        width:92%;
+        padding:20px;
+    }
+
+    .finalMessage h1{
+        font-size:34px;
+    }
+
+    .finalMessage h2{
+        font-size:24px;
+    }
+
+    .finalMessage p{
+        font-size:16px;
+        line-height:1.8;
+    }
+
+    #replayBtn{
+        width:90%;
+        max-width:300px;
+        font-size:18px;
+    }
+
+}
+
+
+/* ===================================
+   SMALL MOBILE
+=================================== */
+
+@media (max-width:480px){
+
+    .loader-content h1{
+        font-size:32px;
+    }
+
+    .loader-content h2{
+        font-size:24px;
+    }
+
+    .birthday-title{
+        font-size:34px;
+    }
+
+    .birthday-name{
+        font-size:26px;
+    }
+
+    .birthday-text{
+        font-size:16px;
+    }
+
+    #slideImage{
+        width:94vw;
+    }
+
+    .cake-wrapper{
+        width:220px;
+    }
+
+    #knife{
+        width:100px;
+    }
+
+    #giftBox{
+        font-size:85px;
+    }
+
+    .popup-box{
+        padding:20px;
+    }
+
+    .letter{
+        padding:18px;
+    }
+
+}

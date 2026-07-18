@@ -1,0 +1,174 @@
+/* ==========================================
+   FADE ANIMATIONS
+========================================== */
+
+@keyframes fadeIn{
+
+    from{
+        opacity:0;
+    }
+
+    to{
+        opacity:1;
+    }
+
+}
+
+@keyframes fadeOut{
+
+    from{
+        opacity:1;
+    }
+
+    to{
+        opacity:0;
+    }
+
+}
+
+
+/* ==========================================
+   FLOATING
+========================================== */
+
+@keyframes floating{
+
+    0%{
+
+        transform:translateY(0px);
+
+    }
+
+    50%{
+
+        transform:translateY(-15px);
+
+    }
+
+    100%{
+
+        transform:translateY(0px);
+
+    }
+
+}
+
+
+/* ==========================================
+   HEART BEAT
+========================================== */
+
+@keyframes heartbeat{
+
+    0%{
+
+        transform:scale(1);
+
+    }
+
+    25%{
+
+        transform:scale(1.08);
+
+    }
+
+    50%{
+
+        transform:scale(1);
+
+    }
+
+    75%{
+
+        transform:scale(1.12);
+
+    }
+
+    100%{
+
+        transform:scale(1);
+
+    }
+
+}
+
+
+/* ==========================================
+   GLOW
+========================================== */
+
+@keyframes glow{
+
+    0%{
+
+        filter:drop-shadow(0 0 5px #8fdfff);
+
+    }
+
+    50%{
+
+        filter:drop-shadow(0 0 25px #8fdfff);
+
+    }
+
+    100%{
+
+        filter:drop-shadow(0 0 5px #8fdfff);
+
+    }
+
+}
+
+
+/* ==========================================
+   ZOOM
+========================================== */
+
+@keyframes zoom{
+
+    from{
+
+        transform:scale(1);
+
+    }
+
+    to{
+
+        transform:scale(1.1);
+
+    }
+
+}
+
+
+/* ==========================================
+   SPARKLE
+========================================== */
+
+@keyframes sparkle{
+
+    0%{
+
+        opacity:0;
+
+        transform:scale(.5);
+
+    }
+
+    50%{
+
+        opacity:1;
+
+        transform:scale(1);
+
+    }
+
+    100%{
+
+        opacity:0;
+
+        transform:scale(.5);
+
+    }
+
+}
